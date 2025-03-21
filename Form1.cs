@@ -22,5 +22,17 @@ namespace CRUDSederhanaPertemuan4
         {
             LoadData();
         }
+        public void ClearForm()
+        {
+            txtNIM.Clear();
+            txtNama.Clear();
+            txtEmail.Clear();
+            txtTelepon.Clear();
+            txtAlamat.Clear();
+
+
+            txtNIM.Focus();
+        }
+
     }
 }
