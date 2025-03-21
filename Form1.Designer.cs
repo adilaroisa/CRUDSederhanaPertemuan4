@@ -64,6 +64,7 @@
             this.btnRefresh.TabIndex = 34;
             this.btnRefresh.Text = "Refresh";
             this.btnRefresh.UseVisualStyleBackColor = true;
+            this.btnRefresh.Click += new System.EventHandler(this.btnRefresh_Click);
             // 
             // btnUbah
             // 
